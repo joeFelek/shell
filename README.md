@@ -1,11 +1,10 @@
-### HY-345 Άσκηση 1
 ### C shell Implementation
 ###### Φελεκίδης Ιωσήφ 4062
 
 
 
 
-* __How it works:__
+- __How it works:__
 
 	1. Prints promt with syntax: `[cs345sh][user][current_dir]~$` 
  					
@@ -21,7 +20,7 @@
 
     4. And loop again to 1. Runs until the `exit` command.
 
-* __Functionalities supported:__
+- __Functionalities supported:__
 
 	1. Supports all system commands and 3 built-in functions:  
 		 
@@ -31,7 +30,7 @@
     
     2. Pipes and multipipes.
     3. Redirections and combinations with pipes.
-    4. Hotkeys `ctrl-c` terminate, `ctrl-h` backspase, `ctrl-s` and `ctrl-q` were working by them selfs I didn't implement them with code.
+    4. Hotkeys `ctrl-c` terminate, `ctrl-h` backspase, `ctrl-s` and `ctrl-q` flow controls.
 
 
 In the cs345lib.h there is a short explanation for what each function does.
